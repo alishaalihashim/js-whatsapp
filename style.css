@@ -1,0 +1,50 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.main-div{
+	display: flex;
+}
+
+.all{
+	overflow-y: scroll;
+	max-width: 400px;
+	max-height: 610px;
+	overflow-x: hidden;
+}
+.person-img{
+	height: 60px;
+	width: 60px;
+	/*background-image: url(images/dp1.jpg);*/
+	background-position: center;
+	background-size: cover;
+	border-radius: 1000px;
+	margin-right: 1em;
+	display: flex;
+}
+.detail{
+	display: flex;
+
+}
+.person-item{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid grey;
+	width: 400px;
+
+
+}
+.name{
+	font-weight: bold;
+	display: flex;
+}
+.time{
+	text-transform: capitalize;
+	font-size: 1em; 
+	align-self: flex-start;                                                
+}
+.after-person-img{
+	margin: 0;
+}
+#main-box{
+	text-align: center;
+}
